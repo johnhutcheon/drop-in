@@ -9,7 +9,7 @@ for (let i = 0; i < numbers.length; i++) {
 }
 
 const tutors = [
-  { name: "John", likesCoding: true },
+  { name: "John", likesCoding: false },
   { name: "Pippa", likesCoding: true },
   { name: "Poppy", likesCoding: false },
 ];
