@@ -7,5 +7,4 @@ const person = {
 };
 
 //console log "Saleh"
-
 console.log(person["first name"]);

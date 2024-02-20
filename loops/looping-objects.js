@@ -8,7 +8,8 @@ const cat = {
 /// loop over and get each key
 /// loop over and get each value
 /// we can use a for in loop here
+console.log(cat.name);
 
 for (const key in cat) {
-  console.log(cat[key]);
+  console.log(key);
 }

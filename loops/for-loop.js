@@ -1,17 +1,14 @@
-const sentence = "I love looping!";
+const arr = [
+  { name: "Guido", likes: "coding" },
+  { name: "John", likes: "teaching coding" },
+];
 
 // console log sentence 5 times
-for (let i = 0; i < 5; i++) {
-  console.log(sentence);
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i].name);
 }
 
 const alphabet = "abcdefghijklmnopqrstuvwxyz";
 
-// for (let letter of alphabet) {
-//   console.log(letter);
-// }
-
-for (let i = 0; i < alphabet.length; i++) {
-  console.log(alphabet[i]);
-}
 // console log every letter

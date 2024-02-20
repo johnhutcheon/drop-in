@@ -1,13 +1,15 @@
 /// EXAMPLE 3
 
-const keyToAccess = "likes";
+const keyToAccess = "name";
 
 const person = {
   name: "John",
+  name: "Guido",
   likes: "cats",
   job: "Northcoders tutor",
 };
 
-// console log variable keyToAccess
+const people = [{ name: "John" }, { name: "Guido" }];
 
+// console log variable keyToAccess
 console.log(person[keyToAccess]);
